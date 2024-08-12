@@ -1,187 +1,298 @@
 [
   {
+    "id": 1,
     "image": "./products/phones/phone1.jpeg",
     "name": "iPhone 14 Pro Max",
-    "price": 159900
+    "price": 159900,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 2,
     "image": "./products/phones/phone2.jpeg",
     "name": "Samsung Galaxy S23 Ultra",
-    "price": 124999
+    "price": 124999,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 3,
     "image": "./products/phones/phone3.jpeg",
     "name": "OnePlus 11",
-    "price": 54999
+    "price": 54999,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 4,
     "image": "./products/speakers/speaker1.jpeg",
     "name": "Sony WH-1000XM5",
-    "price": 29990
+    "price": 29990,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 5,
     "image": "./products/smartwatches/smartwatch1.jpeg",
     "name": "Apple Watch Series 8",
-    "price": 49900
+    "price": 49900,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 6,
     "image": "./products/speakers/speaker2.jpeg",
     "name": "Bose QuietComfort 45",
-    "price": 27999
+    "price": 27999,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 7,
     "image": "./products/laptops/laptop1.jpeg",
     "name": "MacBook Pro 14-inch",
-    "price": 189900
+    "price": 189900,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 8,
     "image": "./products/laptops/laptop2.jpeg",
     "name": "Dell XPS 13",
-    "price": 129990
+    "price": 129990,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 9,
     "image": "./products/laptops/laptop3.jpeg",
     "name": "Lenovo Legion 5 Pro",
-    "price": 139990
+    "price": 139990,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 10,
     "image": "./products/playstations/ps1.jpeg",
     "name": "Sony PlayStation 5",
-    "price": 49990
+    "price": 49990,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 11,
     "image": "./products/playstations/ps2.jpeg",
     "name": "Nintendo Switch OLED",
-    "price": 34990
+    "price": 34990,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 12,
     "image": "./products/speakers/speaker3.jpeg",
     "name": "DJI Mavic Air 3",
-    "price": 109990
+    "price": 109990,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 13,
     "image": "./products/smartwatches/smartwatch2.jpeg",
     "name": "GoPro Hero 11 Black",
-    "price": 44990
+    "price": 44990,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 14,
     "image": "./products/cameras/camera1.jpeg",
     "name": "Canon EOS R8",
-    "price": 129990
+    "price": 129990,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 15,
     "image": "./products/cameras/camera2.jpeg",
     "name": "Nikon Z9",
-    "price": 499999
+    "price": 499999,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 16,
     "image": "./products/speakers/speaker4.jpeg",
     "name": "Apple Airpods Pro 2",
-    "price": 24900
+    "price": 24900,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 17,
     "image": "./products/phones/phone4.jpeg",
     "name": "Jabra Elite 7 Pro",
-    "price": 14999
+    "price": 14999,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 18,
     "image": "./products/smartwatches/smartwatch3.jpeg",
     "name": "Samsung Galaxy Watch 5",
-    "price": 29999
+    "price": 29999,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 19,
     "image": "./products/smartwatches/smartwatch4.jpeg",
     "name": "Fitbit Sense 2",
-    "price": 24999
+    "price": 24999,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 20,
     "image": "./products/ipads/ipad1.jpeg",
     "name": "Kindle Paperwhite",
-    "price": 13999
+    "price": 13999,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 21,
     "image": "./products/ipads/ipad2.jpeg",
     "name": "Sony Bravia XR A95K",
-    "price": 59990
+    "price": 59990,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 22,
     "image": "./products/laptops/laptop4.jpeg",
     "name": "LG OLED G3",
-    "price": 499990
+    "price": 499990,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 23,
     "image": "./products/ipads/ipad3.jpeg",
     "name": "Samsung The Frame",
-    "price": 199990
+    "price": 199990,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 24,
     "image": "./products/ipads/ipad4.jpeg",
     "name": "Apple HomePod",
-    "price": 29900
+    "price": 29900,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 25,
     "image": "./products/smartwatches/smartwatch5.jpeg",
     "name": "Sonos Beam",
-    "price": 39999
+    "price": 39999,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 26,
     "image": "./products/cameras/camera3.jpeg",
     "name": "Dyson Pure Cool Link",
-    "price": 49990
+    "price": 49990,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 27,
     "image": "./products/cameras/camera4.jpeg",
     "name": "Philips Hue Starter Kit",
-    "price": 9999
+    "price": 9999,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 28,
     "image": "./products/playstations/ps3.jpeg",
     "name": "Nest Learning Thermostat",
-    "price": 29999
+    "price": 29999,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 29,
     "image": "./products/phones/phone5.jpeg",
     "name": "Ecovacs Deebot X1 Omni",
-    "price": 129999
+    "price": 129999,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 30,
     "image": "./products/playstations/ps4.jpeg",
     "name": "iRobot Roomba S9+",
-    "price": 119999
+    "price": 119999,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 31,
     "image": "./products/speakers/speaker5.jpeg",
     "name": "Dyson V15 Detect",
-    "price": 79990
+    "price": 79990,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 32,
     "image": "./products/laptops/laptop5.jpeg",
     "name": "Instant Pot Duo Nova",
-    "price": 12999
+    "price": 12999,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 33,
     "image": "./products/cameras/camera5.jpeg",
     "name": "KitchenAid Stand Mixer",
-    "price": 39999
+    "price": 39999,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 34,
     "image": "./products/playstations/ps5.jpeg",
     "name": "Nespresso VertuoLine",
-    "price": 19999
+    "price": 19999,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 35,
     "image": "./products/ipads/ipad5.jpeg",
     "name": "Breville Barista Express",
-    "price": 49999
+    "price": 49999,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 36,
     "image": "./products/ipads/ipad2.jpeg",
     "name": "Dyson Supersonic Hair Dryer",
-    "price": 44990
+    "price": 44990,
+    "addedToCart": false,
+    "quantityInCart": 0
   },
   {
+    "id": 37,
     "image": "./products/phones/phone2.jpeg",
     "name": "Philips Lumea Prestige",
-    "price": 39999
+    "price": 39999,
+    "addedToCart": false,
+    "quantityInCart": 0
   }
 ]
