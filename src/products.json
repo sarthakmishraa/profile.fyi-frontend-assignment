@@ -1,186 +1,186 @@
 [
   {
-    "image": "./src/assets/products/phones/phone1.jpeg",
+    "image": "./products/phones/phone1.jpeg",
     "name": "iPhone 14 Pro Max",
     "price": 159900
   },
   {
-    "image": "./src/assets/products/phones/phone2.jpeg",
+    "image": "./products/phones/phone2.jpeg",
     "name": "Samsung Galaxy S23 Ultra",
     "price": 124999
   },
   {
-    "image": "./src/assets/products/phones/phone3.jpeg",
+    "image": "./products/phones/phone3.jpeg",
     "name": "OnePlus 11",
     "price": 54999
   },
   {
-    "image": "./src/assets/products/speakers/speaker1.jpeg",
+    "image": "./products/speakers/speaker1.jpeg",
     "name": "Sony WH-1000XM5",
     "price": 29990
   },
   {
-    "image": "./src/assets/products/smartwatches/smartwatch1.jpeg",
+    "image": "./products/smartwatches/smartwatch1.jpeg",
     "name": "Apple Watch Series 8",
     "price": 49900
   },
   {
-    "image": "./src/assets/products/speakers/speaker2.jpeg",
+    "image": "./products/speakers/speaker2.jpeg",
     "name": "Bose QuietComfort 45",
     "price": 27999
   },
   {
-    "image": "./src/assets/products/laptops/laptop1.jpeg",
+    "image": "./products/laptops/laptop1.jpeg",
     "name": "MacBook Pro 14-inch",
     "price": 189900
   },
   {
-    "image": "./src/assets/products/laptops/laptop2.jpeg",
+    "image": "./products/laptops/laptop2.jpeg",
     "name": "Dell XPS 13",
     "price": 129990
   },
   {
-    "image": "./src/assets/products/laptops/laptop3.jpeg",
+    "image": "./products/laptops/laptop3.jpeg",
     "name": "Lenovo Legion 5 Pro",
     "price": 139990
   },
   {
-    "image": "./src/assets/products/playstations/ps1.jpeg",
+    "image": "./products/playstations/ps1.jpeg",
     "name": "Sony PlayStation 5",
     "price": 49990
   },
   {
-    "image": "./src/assets/products/playstations/ps2.jpeg",
+    "image": "./products/playstations/ps2.jpeg",
     "name": "Nintendo Switch OLED",
     "price": 34990
   },
   {
-    "image": "./src/assets/products/speakers/speaker3.jpeg",
+    "image": "./products/speakers/speaker3.jpeg",
     "name": "DJI Mavic Air 3",
     "price": 109990
   },
   {
-    "image": "./src/assets/products/smartwatches/smartwatch2.jpeg",
+    "image": "./products/smartwatches/smartwatch2.jpeg",
     "name": "GoPro Hero 11 Black",
     "price": 44990
   },
   {
-    "image": "./src/assets/products/cameras/camera1.jpeg",
+    "image": "./products/cameras/camera1.jpeg",
     "name": "Canon EOS R8",
     "price": 129990
   },
   {
-    "image": "./src/assets/products/cameras/camera2.jpeg",
+    "image": "./products/cameras/camera2.jpeg",
     "name": "Nikon Z9",
     "price": 499999
   },
   {
-    "image": "./src/assets/products/speakers/speaker4.jpeg",
+    "image": "./products/speakers/speaker4.jpeg",
     "name": "Apple Airpods Pro 2",
     "price": 24900
   },
   {
-    "image": "./src/assets/products/phones/phone4.jpeg",
+    "image": "./products/phones/phone4.jpeg",
     "name": "Jabra Elite 7 Pro",
     "price": 14999
   },
   {
-    "image": "./src/assets/products/smartwatches/smartwatch3.jpeg",
+    "image": "./products/smartwatches/smartwatch3.jpeg",
     "name": "Samsung Galaxy Watch 5",
     "price": 29999
   },
   {
-    "image": "./src/assets/products/smartwatches/smartwatch4.jpeg",
+    "image": "./products/smartwatches/smartwatch4.jpeg",
     "name": "Fitbit Sense 2",
     "price": 24999
   },
   {
-    "image": "./src/assets/products/ipads/ipad1.jpeg",
+    "image": "./products/ipads/ipad1.jpeg",
     "name": "Kindle Paperwhite",
     "price": 13999
   },
   {
-    "image": "./src/assets/products/ipads/ipad2.jpeg",
+    "image": "./products/ipads/ipad2.jpeg",
     "name": "Sony Bravia XR A95K",
     "price": 59990
   },
   {
-    "image": "./src/assets/products/laptops/laptop4.jpeg",
+    "image": "./products/laptops/laptop4.jpeg",
     "name": "LG OLED G3",
     "price": 499990
   },
   {
-    "image": "./src/assets/products/ipads/ipad3.jpeg",
+    "image": "./products/ipads/ipad3.jpeg",
     "name": "Samsung The Frame",
     "price": 199990
   },
   {
-    "image": "./src/assets/products/ipads/ipad4.jpeg",
+    "image": "./products/ipads/ipad4.jpeg",
     "name": "Apple HomePod",
     "price": 29900
   },
   {
-    "image": "./src/assets/products/smartwatches/smartwatch5.jpeg",
+    "image": "./products/smartwatches/smartwatch5.jpeg",
     "name": "Sonos Beam",
     "price": 39999
   },
   {
-    "image": "./src/assets/products/cameras/camera3.jpeg",
+    "image": "./products/cameras/camera3.jpeg",
     "name": "Dyson Pure Cool Link",
     "price": 49990
   },
   {
-    "image": "./src/assets/products/cameras/camera4.jpeg",
+    "image": "./products/cameras/camera4.jpeg",
     "name": "Philips Hue Starter Kit",
     "price": 9999
   },
   {
-    "image": "./src/assets/products/playstations/ps3.jpeg",
+    "image": "./products/playstations/ps3.jpeg",
     "name": "Nest Learning Thermostat",
     "price": 29999
   },
   {
-    "image": "./src/assets/products/phones/phone5.jpeg",
+    "image": "./products/phones/phone5.jpeg",
     "name": "Ecovacs Deebot X1 Omni",
     "price": 129999
   },
   {
-    "image": "./src/assets/products/playstations/ps4.jpeg",
+    "image": "./products/playstations/ps4.jpeg",
     "name": "iRobot Roomba S9+",
     "price": 119999
   },
   {
-    "image": "./src/assets/products/speakers/speaker5.jpeg",
+    "image": "./products/speakers/speaker5.jpeg",
     "name": "Dyson V15 Detect",
     "price": 79990
   },
   {
-    "image": "./src/assets/products/laptops/laptop5.jpeg",
+    "image": "./products/laptops/laptop5.jpeg",
     "name": "Instant Pot Duo Nova",
     "price": 12999
   },
   {
-    "image": "./src/assets/products/cameras/camera5.jpeg",
+    "image": "./products/cameras/camera5.jpeg",
     "name": "KitchenAid Stand Mixer",
     "price": 39999
   },
   {
-    "image": "./src/assets/products/playstations/ps5.jpeg",
+    "image": "./products/playstations/ps5.jpeg",
     "name": "Nespresso VertuoLine",
     "price": 19999
   },
   {
-    "image": "./src/assets/products/ipads/ipad5.jpeg",
+    "image": "./products/ipads/ipad5.jpeg",
     "name": "Breville Barista Express",
     "price": 49999
   },
   {
-    "image": "./src/assets/products/ipads/ipad2.jpeg",
+    "image": "./products/ipads/ipad2.jpeg",
     "name": "Dyson Supersonic Hair Dryer",
     "price": 44990
   },
   {
-    "image": "./src/assets/products/phones/phone2.jpeg",
+    "image": "./products/phones/phone2.jpeg",
     "name": "Philips Lumea Prestige",
     "price": 39999
   }
