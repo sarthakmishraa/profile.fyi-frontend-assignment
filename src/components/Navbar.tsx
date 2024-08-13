@@ -11,7 +11,7 @@ export const Navbar = () => {
         throw new Error("cartContext must be used within a cartContext.Provider");
     }
 
-    const { products } = cart;
+    const { products, subTotal } = cart;
 
     return(
         <div className="flex flex-row justify-around gap-4 text-xl my-5">
@@ -32,17 +32,25 @@ export const Navbar = () => {
                     {
                         products ? 
                             (
-                                <span>{ products.length }</span>
+                                <span className="text-sm text-gray-300 w-6 text-center bg-red-600 rounded-full p-1">{ products.length }</span>
                             )
                             :(
-                                <span>0</span>
+                                <span className="text-sm text-gray-300 w-6 text-center bg-red-600 rounded-full p-1">0</span>
                             )
                     }
-                    <button
-                        className="font-semibold p-1 hover:underline"
-                    >
-                        Cart
-                    </button>
+                    {subTotal === 0 ? (
+                        <button
+                            className="font-semibold p-1 hover:underline"
+                        >
+                            Cart
+                        </button>
+                    ):(
+                        <button
+                            className="font-semibold p-1 hover:underline"
+                        >
+                            Cart ₹{ subTotal }
+                        </button>
+                    )}
                 </Link>
             </div>
         </div>

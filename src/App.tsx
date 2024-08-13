@@ -14,8 +14,8 @@ export interface cartContextType {
   setPromoCode: React.Dispatch<React.SetStateAction<string | undefined>>;
   totalAmount: number;
   setTotalAmount: React.Dispatch<React.SetStateAction<number>>;
-  addedToCart: boolean;
-  setAddedToCart: React.Dispatch<React.SetStateAction<boolean>> ;
+  addedToCart: boolean | undefined;
+  setAddedToCart: React.Dispatch<React.SetStateAction<boolean | undefined>> ;
   quantityInCart: number;
   setQuantityInCart: React.Dispatch<React.SetStateAction<number>>
 }
@@ -27,7 +27,7 @@ function App() {
   const [subTotal, setSubTotal] = useState<number>(0);
   const [promoCode, setPromoCode] = useState<string | undefined>();
   const [totalAmount, setTotalAmount] = useState<number>(0);
-  const [addedToCart, setAddedToCart] = useState<boolean>(false);
+  const [addedToCart, setAddedToCart] = useState<boolean | undefined>();
   const [quantityInCart, setQuantityInCart] = useState<number>(0);
 
   const defaultCartValue = {
