@@ -4,6 +4,7 @@ import { Home } from "./pages/Home";
 import { Cart } from "./pages/Cart";
 import { Navbar } from "./components/Navbar";
 import { productType } from "./components/Card";
+import { Footer } from "./components/Footer";
 
 export interface cartContextType {
   products: productType[] | undefined;
@@ -48,13 +49,14 @@ function App() {
   return (
     <Router>
       <cartContext.Provider value={defaultCartValue}>
-        <div className="px-20 pt-5 pb-10">
+        <div className="font-mono px-20 pt-5 pb-10">
           <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/cart" element={<Cart />} />
-            <Route path="*" element={<h2 className="font-bold text-center text-2xl m-10">404 - Page Not Found</h2>} />
-          </Routes>  
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/cart" element={<Cart />} />
+              <Route path="*" element={<h2 className="font-bold text-center text-2xl m-10">404 - Page Not Found</h2>} />
+            </Routes>
+          <Footer />
         </div>
       </cartContext.Provider>
     </Router>

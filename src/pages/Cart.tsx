@@ -101,7 +101,7 @@ export const Cart = () => {
     }, [products]);
 
     return(
-        <div className="md:px-8 lg:px-36 xl:px-64 2xl:px-108">
+        <div className="min-h-[68vh] md:px-8 lg:px-36 xl:px-64 2xl:px-108">
             <div>
                 {subTotal !== 0 ? (
                     products?.map((product) => (
@@ -135,7 +135,7 @@ export const Cart = () => {
                     <p className="flex flex-row">Use PROFILE20 for a 20% off<FaCopy className="mx-2 cursor-pointer" onClick={() => copyPromoCode("PROFILE20")} size={20} /></p>
                     <p className="flex flex-row">Use PROFILE4000 for a ₹4000 off<FaCopy className="mx-2 cursor-pointer" onClick={() => copyPromoCode("PROFILE4000")} size={20} /></p>
                     <input
-                        className="p-1 bg-black rounded-md text-gray-300"
+                        className="p-1 font-semibold bg-black rounded-md text-gray-300"
                         placeholder="Enter promo code"
                         onChange={(event) => setPromo(event.target.value)}
                         ref={promoRef}
