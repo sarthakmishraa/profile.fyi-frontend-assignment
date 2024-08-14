@@ -1,9 +1,11 @@
 import { useContext, useState } from "react";
 import { cartContext } from "../App";
 import { cartContextType } from "../App";
+import { MdDeleteForever } from "react-icons/md";
 
 interface Props {
-    product: productType
+    product: productType,
+    toast: any
 }
 
 export interface productType {
@@ -17,6 +19,8 @@ export interface productType {
 
 export const Card = (props: Props) => {
     const product: productType = props.product;
+    const toast = props.toast;
+
     const [quantity, setQuantity] = useState<number>(product.quantityInCart);
 
     const cart = useContext<cartContextType | undefined>(cartContext);
@@ -27,6 +31,7 @@ export const Card = (props: Props) => {
     const { products, setSubTotal, setProducts } = cart;
 
     const addToCart = () => {
+        toast.success("Item added to cart");
         try {
             setProducts(prev => [...prev || [], product]);
             setSubTotal((prev) => prev + product.price);
@@ -46,19 +51,20 @@ export const Card = (props: Props) => {
         setSubTotal((prev) => prev + product.price);
     };
 
-    const removeOneItem = async() => {
+    const removeOneItem = () => {
         if(product.quantityInCart == 1) {
-            await setSubTotal(prev => prev - product.price * product.quantityInCart);
             product.addedToCart = false;
             const remainingProd = products?.filter((prod) => prod.id !== product.id)
             setProducts(remainingProd);
         }
+        setSubTotal(prev => prev - product.price);
         product.quantityInCart -= 1;
         setQuantity(prev => prev - 1);
     };
 
     const removeItem = async() => {
-        await setSubTotal(prev => prev - product.price * product.quantityInCart);
+        const amountToDeduct = product.price * product.quantityInCart;
+        setSubTotal((prev) => prev - amountToDeduct);
         product.quantityInCart = 0;
         product.addedToCart = false;
         setQuantity(0);
@@ -79,7 +85,7 @@ export const Card = (props: Props) => {
             </div>
             {
                 product?.addedToCart ? (
-                    <div className="my-1">
+                    <div className="my-1 flex flex-row items-center">
                         <button
                             className="w-8 px-2 pb-1 border-2 border-gray-700 rounded-lg text-xl font-semibold text-gray-300 bg-black hover:text-black hover:bg-gray-300"
                             onClick={removeOneItem}
@@ -92,7 +98,7 @@ export const Card = (props: Props) => {
                         <button
                             className="ml-5 font-semibold p-1 border-2 rounded-md border-gray-800 text-gray-300 bg-black hover:text-black hover:bg-gray-300"
                             onClick={removeItem}
-                        >Remove</button>
+                        ><MdDeleteForever size={24} /></button>
                     </div>
                 ):(
                     <button

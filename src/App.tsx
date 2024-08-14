@@ -48,7 +48,7 @@ function App() {
   return (
     <Router>
       <cartContext.Provider value={defaultCartValue}>
-        <div className="px-20 pt-5 pb-10 bg-gray-300">
+        <div className="px-20 pt-5 pb-10">
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
