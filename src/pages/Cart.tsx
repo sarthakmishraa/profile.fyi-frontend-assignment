@@ -126,7 +126,7 @@ export const Cart = () => {
                         </div>
                     ))
                 ):(
-                    <p className="text-center font-semibold text-2xl">Your cart is empty</p>
+                    <p className="mt-20 text-center font-semibold text-3xl">Your cart is empty</p>
                 )}
             </div>
             {products && !cartEmpty &&
